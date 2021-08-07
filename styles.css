@@ -1,0 +1,145 @@
+
+:root{
+    --primary-color:#7C3AED;
+    /* --dark-grey: */
+}
+body{
+    font-family: 'Montierrst',sans-serif;
+}
+
+.container{
+    padding:0rem 1rem;
+    
+}
+
+.container-center{
+    max-width: 600px;
+   
+}
+.link{
+    text-decoration: none;
+    padding: 0rem 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+} 
+
+.link-primary{
+    background-color:var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+   
+    padding: 0.5rem;
+    border: 1px solid hsl(270, 100%, 55%);
+}
+
+.link-secondary{
+    
+    /* background-color: var(--primary-color); */
+   /* color: var(--primary-color); */
+   border-radius: 0.5rem;
+   border: 1px solid var(--primary-color);
+   padding: 0.5rem;
+   color: var(--primary-color);
+
+   
+
+}
+
+.list-ul{
+    list-style: none;
+    /* display: inline; */
+
+} 
+
+.navigation .anchor{
+    text-align: right;
+}
+
+ .list-item-inline
+ {
+     display: inline;
+    list-style: none;
+ }
+
+.navigation{
+    background-color:var(--primary-color);;
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+   
+}
+
+
+.navigation #nav-pills{
+    text-align: right;
+}
+
+#active{
+    font-weight: bold;
+}
+.navigation .anchor{
+    text-decoration:  none;
+    color: white;
+    padding-left: 10px;
+    /* display: inline; */
+}
+
+.hero{
+    padding: 2rem;
+    text-align: center;
+}
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    color:#808080;
+    padding: 1rem;
+}
+
+.hero .hero-heading .hero-span{
+    color: var(--primary-color);
+    
+}
+
+.section{
+    padding: 2rem;
+    /* background-color: #D3D3D3; */
+}
+.section h2{
+    text-align: center;
+  
+}
+
+.section-off{
+    background-color: #D3D3D3;
+    padding:  0.5rem 1rem;
+}
+.section p{
+    text-align: center;
+}
+/* .container-center{
+    margin-left: 220px;
+} */
+
+
+
+
+
+footer{
+    background-color:var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+ 
+   
+    color: white;
+   
+}
+
+a{
+    color: white;
+}
