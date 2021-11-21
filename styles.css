@@ -2,7 +2,8 @@
 :root{
     /* --primary-color:#7C3AED; */
     /* --primary-color:#d68b00; */
-    --primary-color:#daa520;
+    /* --primary-color:#daa520; */
+    --primary-color:#ba55d3;
 }
 body{
     
@@ -39,7 +40,7 @@ body{
     color: white;
    
     padding: 0.5rem;
-    border: 1px solid#daa520;
+    border: 1px solid#ba55d3;
 }
 
 .link-secondary{
