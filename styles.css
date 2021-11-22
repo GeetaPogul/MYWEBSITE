@@ -15,6 +15,10 @@ body{
       font-size:1.5rem;
      
 }
+hr{
+    height: 0.1rem;
+    background-color: black;
+}
 
 
 
@@ -146,8 +150,8 @@ body{
     padding:  2rem 2rem ;
     padding-bottom: 2rem;
      border: 1px solid black;
-    margin-left: 20rem;
-    margin-right:18rem;
+    margin-left: 18rem;
+    margin-right:20rem;
     border-radius: 1.5rem;
 }
 
@@ -156,8 +160,8 @@ body{
     padding:  2rem 2rem ;
     padding-bottom: 2rem;
      /* border: 1px solid blue; */
-    margin-left: 20rem;
-    margin-right:18rem;
+    margin-left: 17rem;
+    margin-right:20rem;
     border-radius: 1.5rem;
 }
 .section p{
